@@ -1,0 +1,26 @@
+컴퓨터 비전 : NIPS, ICML, ICLR, CVPR, ICCV, AAAi, ECCV
+자연어 처리 : ACL, NACCL
+
+2013 -> 2014.5 
+	-> R-CNN : "bounding box regressor" 설명 in appedix
+	-> SPPNET : "spatial pyramid"
+	-> fast-rcnn : "ROI Pooling"
+	-> faster rcnn
+
+근본 논문들(~2018)
+	-> faster rcnn -> mask-cascade rcnn(mask rcnn+cascade rcnn)
+	-> mask rcnn 
+	-> cascade rcnn
+	-> focal loss(retinanet) : class imbalance 문제를 해결하려고 희귀한 클래스들에 대해서 loss를 높게 주는 방식
+	-> fpn : swin trasformer 이해하는 데 도움
+	-> efficientdet : 배경 지식 필요
+
+Trasformer : DETR(구현할 때 짜증나는 부분)
+	1. Data Augmentation 
+	2. 덕지덕지 붙은 다른 툴들 : 미리 알아야할 키워드
+		- non-max suppression
+		- selective search
+		- mAP(mean average precision) : 구현 개빡셈
+		- sliding window
+
+
